@@ -2,7 +2,7 @@
 
 /* Part 1 */
 
-$fishs = explode(",", trim(file_get_contents('input6.txt')));
+$fishs = explode(",", trim(file_get_contents('input06.txt')));
 
 $day = 1;
 while($day <= 80) {
@@ -27,7 +27,7 @@ echo 'Part 1 : '.count($fishs)."\n";
 
 /* Part 2 (optimization) */
 
-$fishs = explode(",", trim(file_get_contents('input6.txt')));
+$fishs = explode(",", trim(file_get_contents('input06.txt')));
 $fishs_count = array_count_values($fishs) + array_fill(0, 9, 0);
 
 $day = 1;

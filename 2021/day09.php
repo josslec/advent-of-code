@@ -2,7 +2,7 @@
 
 /* Part 1 */
 
-$map = explode("\n", trim(file_get_contents('input9.txt')));
+$map = explode("\n", trim(file_get_contents('input09.txt')));
 $map = array_map('str_split', $map);
 
 $risklevel = 0;
@@ -26,7 +26,7 @@ echo 'Part 1 - Risk level : '.$risklevel."\n";
 
 /* Part 2 */
 
-$map = explode("\n", trim(file_get_contents('input9.txt')));
+$map = explode("\n", trim(file_get_contents('input09.txt')));
 $map = array_map('str_split', $map);
 
 $basins = [];

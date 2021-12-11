@@ -2,7 +2,7 @@
 
 /* Part 1 */
 
-$lines = explode("\n", file_get_contents('input3.txt'));
+$lines = explode("\n", file_get_contents('input03.txt'));
 
 $counts = [];
 $counts[0] = [];
@@ -38,7 +38,7 @@ echo 'Part 1 - Power consumption : '.$power_conso."\n";
 
 /* Part 2 */
 
-$lines = explode("\n", file_get_contents('input3.txt'));
+$lines = explode("\n", file_get_contents('input03.txt'));
 array_pop($lines);
 
 $lines = array_map('str_split', $lines);

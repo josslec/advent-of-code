@@ -1,6 +1,6 @@
 <?php
 
-$numbers = explode("\n", trim(file_get_contents('input.txt')));
+$numbers = explode("\n", trim(file_get_contents('input01.txt')));
 
 /* Part 1 */
 

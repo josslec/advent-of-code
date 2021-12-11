@@ -2,7 +2,7 @@
 
 /* Parts 1 and 2 */
 
-$displays = explode("\n", trim(file_get_contents('input8.txt')));
+$displays = explode("\n", trim(file_get_contents('input08.txt')));
 
 $count_simple_digits = 0;
 $count_all_outputs = 0;

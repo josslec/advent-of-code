@@ -1,6 +1,6 @@
 <?php
 
-$instructions = explode("\n", file_get_contents('input2.txt'));
+$instructions = explode("\n", file_get_contents('input02.txt'));
 
 /* Part 1 */
 

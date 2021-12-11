@@ -12,7 +12,7 @@ function mediane($numbers) {
 	}
 }
 
-$numbers = explode(",", trim(file_get_contents('input7.txt')));
+$numbers = explode(",", trim(file_get_contents('input07.txt')));
 $mediane = mediane($numbers);
 
 $fuel = 0;
@@ -25,7 +25,7 @@ echo 'Part 1 - Fuel : '.$fuel."\n";
 
 /* Part 2 */
 
-$numbers = explode(",", trim(file_get_contents('input7.txt')));
+$numbers = explode(",", trim(file_get_contents('input07.txt')));
 
 $moyenne = floor(array_sum($numbers)/count($numbers));
 

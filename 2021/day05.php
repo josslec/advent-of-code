@@ -2,7 +2,7 @@
 
 /* Parts 1 and 2 */
 
-$lines = explode("\n", trim(file_get_contents('input5.txt')));
+$lines = explode("\n", trim(file_get_contents('input05.txt')));
 
 $points_overlap_counts = [];
 

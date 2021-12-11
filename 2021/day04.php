@@ -2,7 +2,7 @@
 
 /* Parts 1 and 2 */
 
-$grids = explode("\n\n", trim(file_get_contents('input4.txt')));
+$grids = explode("\n\n", trim(file_get_contents('input04.txt')));
 $random_numbers = explode(',', array_shift($grids));
 
 $gridscomputed = [];
