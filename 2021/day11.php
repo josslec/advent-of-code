@@ -15,8 +15,7 @@ while($step < 100) {
 		}
 	}
 
-	while(in_array(10, call_user_func_array('array_merge', $map)))
-	{
+	while(in_array(10, call_user_func_array('array_merge', $map))) {
 		foreach ($map as $rowid => $row) {
 			foreach($row as $columnid => $octoenergy) {
 				if($octoenergy == 10) {
@@ -57,8 +56,7 @@ while(array_sum(array_map('array_sum', $map)) != 0) {
 		}
 	}
 
-	while(in_array(10, call_user_func_array('array_merge', $map)))
-	{
+	while(in_array(10, call_user_func_array('array_merge', $map))) {
 		foreach ($map as $rowid => $row) {
 			foreach($row as $columnid => $octoenergy) {
 				if($octoenergy == 10) {
